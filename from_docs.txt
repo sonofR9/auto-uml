@@ -1,0 +1,5 @@
+contributes.customEditors
+
+
+TODO:
+template json example or smth. (should be public, private, for which type and name with regex (and which cvalifier), grouping by smth in "high-level" directory)

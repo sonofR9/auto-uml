@@ -1,0 +1,12 @@
+I am developing plugin for vs code (auto uml generator) on typescript.
+Write  following functional (and separate into files if needed) which:
+
+1) adds some logo to left menu;
+2) when it is selected from left menu displays following:
+2.1) sub-menu with buttons called "diagramm" (all of the buttons does nothing):
+	2.1.1) "scan files"
+	2.1.2) "create diagramm from files"
+	2.1.3) "create diagramm from scratch"
+	2.1.4) "generate project"
+2.2) sub-menu with tree view of files and sub-folder of current folder
+
