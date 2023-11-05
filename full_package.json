@@ -46,11 +46,13 @@
       "auto-uml-generator-viewsContainer": [
         {
           "id": "auto-uml-generator.fileExplorer",
-          "name": "File Explorer"
+          "name": "File Explorer",
+          "when": "viewContainer:auto-uml-generator"
         },
         {
           "id": "auto-uml-generator.indexedFilesExplorer",
-          "name": "AutoUML Index"
+          "name": "AutoUML Index",
+          "when": "viewContainer:auto-uml-generator"
         }
       ]
     },

@@ -1,12 +1,20 @@
-I am developing plugin for vs code (auto uml generator) on typescript.
-Write  following functional (and separate into files if needed) which:
+I want to create auto-uml extension for vs code on typescript.
+Idea is as follows: user should be able to create uml as always, automatically generate uml from files in directory and generate code from uml.
+It should have:
+1) custom file extension .autouml
+2) commands:
+2.1) to create autouml file from scratch
+2.2) to create autouml file from files;
+2.3) to update uml for current folder;
+2.4) to generate code from uml;
+3) custom editor (to display and edit uml);
+4) viewcontainer on main sidebar with following views:
+4.1) regular file explorer;
+4.2) explorer of currently indexed files;
+5) context-menu with commands:
+5.1) to add class/ function to index;
+5.2) to update class according to uml;
+5.3) to add class dependencies to uml.
 
-1) adds some logo to left menu;
-2) when it is selected from left menu displays following:
-2.1) sub-menu with buttons called "diagramm" (all of the buttons does nothing):
-	2.1.1) "scan files"
-	2.1.2) "create diagramm from files"
-	2.1.3) "create diagramm from scratch"
-	2.1.4) "generate project"
-2.2) sub-menu with tree view of files and sub-folder of current folder
+
 
